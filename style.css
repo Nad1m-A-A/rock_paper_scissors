@@ -6,12 +6,13 @@
 }
 
 body {
-    background-color: #CFFDE1;
+    background-color: #222;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .game-field {
     background-color: #3D5656;
+    background-color: rgba(255, 255, 255, 0.901);
     width: 40%;
     padding: 25px;
     position: absolute;
@@ -24,7 +25,7 @@ body {
 
 h2 {
     margin-bottom: 15px;
-    color: white;
+    color: #3D5656;
 }
 
 .choices {
