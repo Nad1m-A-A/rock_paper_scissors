@@ -15,8 +15,8 @@ const btnScissors = document.querySelector('.scissors');
 const choices = [btnRock.textContent, btnPaper.textContent, btnScissors.textContent];
 
 // Messages
-const win = 'You win!✌';
-const lose = 'You lose!😒';
+const win = 'You won!✌';
+const lose = 'You lost!💔';
 const draw = 'Draw!🤷‍♀️';
 
 ///////////////////////////////////////////////

@@ -13,7 +13,7 @@ body {
 .game-field {
     background-color: #3D5656;
     background-color: rgba(255, 255, 255, 0.901);
-    width: 40%;
+    width: 600px;
     padding: 25px;
     position: absolute;
     top: 50%;
@@ -37,13 +37,16 @@ button {
     padding: 1rem;
     margin: 10px auto;
     display: block;
-    width: 30%;
+    width: 150px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px black;
     background-color: #3D5656;
+    background-color: green;
     color: white;
+    font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
+    transition: 500ms;
 }
 
 button:hover {
@@ -53,4 +56,35 @@ button:hover {
 
 .computer-choice , .user-choice , .result , .score{
     color: #68B984;
+    color: green;
+}
+
+@media screen and (max-width: 700px) {
+    .game-field {
+        width: 500px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .game-field {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .game-field {
+        width: 300px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    button {
+        font-size: 14px;
+    }
 }
